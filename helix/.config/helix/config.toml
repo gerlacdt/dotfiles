@@ -12,10 +12,5 @@ select = "underline"
 [editor.file-picker]
 hidden = false
 
-[editor.auto-pairs]
-'(' = ')'
-'{' = '}'
-'[' = ']'
-'"' = '"'
-'`' = '`'
-'<' = '>'
+[editor.statusline]
+right = ["diagnostics", "selections", "position", "file-encoding", "version-control"]

@@ -32,3 +32,13 @@ auto-format = true
 name = "markdown"
 formatter = { command = 'prettier', args = ["--parser", "markdown"] }
 auto-format = true
+
+[[language]]
+name = "hcl"
+formatter = { command = 'terraform', args = ["fmt", "-"] }
+auto-format = true
+
+[[language]]
+name = "tfvars"
+formatter = { command = 'terraform', args = ["fmt", "-"] }
+auto-format = true

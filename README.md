@@ -25,9 +25,6 @@ stow --verbose --target=${HOME} git
 stow --verbose --target=${HOME} --delete git
 ```
 
-The short [GNU Stow
+This blog post about [GNU Stow
 tutorial](https://venthur.de/2021-12-19-managing-dotfiles-with-stow.html) gives
 more insights about the details.
-
-Unfortunately, `stow --restow` shows a warning which pollutes STDOUT. The
-[issue](https://github.com/aspiers/stow/issues/65) is not resolved yet.
