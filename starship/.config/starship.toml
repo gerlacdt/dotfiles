@@ -1,0 +1,16 @@
+# Get editor completions based on the config schema
+"$schema" = 'https://starship.rs/config-schema.json'
+
+# Move the directory to the second line
+format = "$all$directory$character"
+
+# Disable the package module, hiding it from the prompt completely
+[package]
+disabled = true
+
+[directory]
+style = "cyan bold"
+
+[kubernetes]
+format = '[☸ ($cluster)\($namespace\)](green) '
+disabled = false
