@@ -142,10 +142,6 @@ complete -o nospace -C $HOME/.local/bin/terraform terraform
 # set default python environment
 source $HOME/.virtualenv/data/bin/activate
 
-# add k8s cluster and namespace in PROMPT
-source $HOME/.local/lib/kube-ps1/kube-ps1.sh
-PROMPT='$(kube_ps1)'$PROMPT
-
 
 # shows memory usage of a process
 # USAGE: mem emacs # shows emacs memory consumption
