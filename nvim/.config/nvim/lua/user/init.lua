@@ -53,8 +53,9 @@ return {
        "pyright",
        "rust_analyzer",
        "gopls",
-       "tsserver"
-
+       "tsserver",
+       "lua_ls",
+       "solargraph"
     },
   },
 
