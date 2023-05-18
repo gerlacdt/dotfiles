@@ -48,3 +48,7 @@ name = "ruby"
 config = { solargraph = { diagnostics = true, formatting = false } }
 formatter = { command = "bundle", args = ["exec", "rubocop", "--stdin", "foo.rb", "-a", "--stderr", "--fail-level", "fatal"] }
 auto-format = true
+
+[[language]]
+name = "lua"
+auto-format = true
