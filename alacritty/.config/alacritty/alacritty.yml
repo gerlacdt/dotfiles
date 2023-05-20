@@ -901,5 +901,6 @@ font:
   #highlight_damage: false
 
 # git clone https://github.com/eendroroy/alacritty-theme.git ~/.alacritty-colorscheme
-# import:
-#   - ~/.alacritty-colorscheme/themes/iterm.yaml
+import:
+  - ~/.alacritty-colorscheme/themes/iterm.yaml
+  # - ~/.alacritty-colorscheme/themes/gnome_terminal.yaml
