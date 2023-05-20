@@ -113,7 +113,7 @@ alias ag='ag --path-to-ignore ~/.agignore'
 alias k='kubectl'
 alias kd='kubectl describe'
 alias t='terraform'
-alias gdiff='git diff --no-index'
+alias gdl='git diff --no-index'
 
 # nice looking shell, e.g. enable true color terminal support, set default language
 export LC_ALL=en_US.UTF-8
