@@ -112,8 +112,8 @@ skim-cd-widget() {
   zle skim-redraw-prompt
   return $ret
 }
-zle     -N    skim-cd-widget
-bindkey '\ec' skim-cd-widget
+# zle     -N    skim-cd-widget
+# bindkey '\ec' skim-cd-widget
 
 # CTRL-R - Paste the selected command from history into the command line
 skim-history-widget() {
