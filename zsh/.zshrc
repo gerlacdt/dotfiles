@@ -152,7 +152,7 @@ mem()
 
 # more stuff
 source $HOME/.cargo/env
-source $HOME/.fzf.completion.zsh
-source $HOME/.fzf.key-bindings.zsh
+# source $HOME/.config/fzf/fzf-key-bindings.zsh # disabled CTRL-t, I like transpose char more
+source $HOME/.config/skim/skim-key-bindings.zsh # disabled CTRL-t, I like transpose char more
 eval "$(starship init zsh)"
 eval "$(zoxide init zsh)"
