@@ -23,7 +23,11 @@ return {
     ["<leader>b"] = { name = "Buffers" },
     -- quick save
     -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
-    ["<leader>v"] = { "<cmd>HopWord<cr>", desc = "HopWord" },
+    --
+    -- my section
+    ["<leader>v"] = { name = "My Shortcuts" },
+    ["<leader>vw"] = { "<cmd>HopWord<cr>", desc = "HopWord" },
+    ["<leader>vc"] = { "<cmd>HopChar1<cr>", desc = "HopChar1" },
   },
   t = {
     -- setting a mapping to false will disable it
