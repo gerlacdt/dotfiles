@@ -9,4 +9,12 @@ return {
   --     require("lsp_signature").setup()
   --   end,
   -- },
+  {
+    "phha/zenburn.nvim",
+    name = "zenburn",
+    config = function()
+      require("zenburn").setup()
+    end,
+  },
+
 }
