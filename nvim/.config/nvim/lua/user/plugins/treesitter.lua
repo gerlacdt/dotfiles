@@ -2,7 +2,7 @@ return {
    "nvim-treesitter/nvim-treesitter",
    opts = function(_, opts)
       opts.ensure_installed = require("astronvim.utils").list_insert_unique(opts.ensure_installed, {
-        "rust", "go", "lua", "python", "java", "typescript", "javascript", "ruby"})
+         "rust", "go", "lua", "python", "java", "typescript", "javascript", "ruby", "terraform" })
       textobjects = {
          select = {
             enable = true,
@@ -16,7 +16,7 @@ return {
             },
             selection_modes = {
                ['@parameter.outer'] = 'v', -- charwise
-               ['@function.outer'] = 'V', -- linewise
+               ['@function.outer'] = 'V',  -- linewise
                ['@class.outer'] = '<c-v>', -- blockwise
             },
             include_surrounding_whitespace = true,

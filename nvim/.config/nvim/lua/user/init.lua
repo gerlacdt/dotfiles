@@ -56,7 +56,8 @@ return {
       "gopls",
       "tsserver",
       "lua_ls",
-      "solargraph"
+      "solargraph",
+      "terraformls"
     },
   },
 
