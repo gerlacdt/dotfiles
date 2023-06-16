@@ -57,7 +57,8 @@ return {
       "tsserver",
       "lua_ls",
       "solargraph",
-      "terraformls"
+      "terraformls",
+      "yamlls"
     },
   },
 
