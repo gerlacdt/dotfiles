@@ -14,6 +14,7 @@ return {
       -- null_ls.builtins.formatting.stylua,
       -- null_ls.builtins.formatting.prettier,
       null_ls.builtins.formatting.black,
+      null_ls.builtins.formatting.terraform_fmt,
       -- null_ls.builtins.formatting.yamlfmt,
     }
     -- you can reuse a shared lspconfig on_attach callback here
