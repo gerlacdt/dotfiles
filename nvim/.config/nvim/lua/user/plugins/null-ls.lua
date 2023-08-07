@@ -16,6 +16,7 @@ return {
       null_ls.builtins.formatting.black,
       null_ls.builtins.formatting.terraform_fmt,
       -- null_ls.builtins.formatting.yamlfmt,
+      null_ls.builtins.diagnostics.staticcheck,
     }
     -- you can reuse a shared lspconfig on_attach callback here
     config.on_attach = function(client, bufnr)
