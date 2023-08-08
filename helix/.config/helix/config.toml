@@ -16,5 +16,8 @@ hidden = false
 right = ["diagnostics", "selections", "position", "file-encoding", "version-control"]
 
 
+[keys.normal]
+"D" = ["ensure_selections_forward", "extend_to_line_end", "delete_selection"]
+
 [keys.insert]
 "C-c" = "normal_mode"
