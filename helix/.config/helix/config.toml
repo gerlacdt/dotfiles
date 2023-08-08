@@ -14,3 +14,7 @@ hidden = false
 
 [editor.statusline]
 right = ["diagnostics", "selections", "position", "file-encoding", "version-control"]
+
+
+[keys.insert]
+"C-c" = "normal_mode"
