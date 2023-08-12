@@ -25,4 +25,3 @@ right = ["diagnostics", "selections", "position", "file-encoding", "version-cont
 [keys.insert]
 "C-c" = "normal_mode"
 "C-[" = "normal_mode"
-"j" = { k = "normal_mode" } # Maps `jk` to exit insert mode
