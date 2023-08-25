@@ -15,6 +15,13 @@ hidden = false
 [editor.statusline]
 right = ["diagnostics", "selections", "position", "file-encoding", "version-control"]
 
+[editor.auto-pairs]
+'(' = ')'
+'{' = '}'
+'[' = ']'
+'"' = '"'
+'`' = '`'
+'<' = '>'
 
 [keys.normal]
 "D" = ["ensure_selections_forward", "extend_to_line_end", "delete_selection"]
