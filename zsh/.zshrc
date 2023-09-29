@@ -128,10 +128,6 @@ export JAVA_HOME=/usr/lib/jvm/java-17-openjdk-amd64
 export MVN_HOME=$HOME/.local/bin/maven
 export GRADLE_HOME=$HOME/.local/bin/gradle
 
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-
 PATH=/usr/local/go/bin:$GOBIN:$MVN_HOME/bin:$GRADLE_HOME/bin:$HOME/.local/bin:$HOME/.arkade/bin:$PATH
 
 # auto-completions
@@ -156,3 +152,9 @@ source $HOME/.cargo/env
 source $HOME/.config/skim/skim-key-bindings.zsh # disabled CTRL-t, I like transpose char more
 eval "$(starship init zsh)"
 eval "$(zoxide init zsh)"
+
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
