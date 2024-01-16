@@ -1,10 +1,9 @@
 [[language]]
 name = "python"
 roots = ["pyproject.toml", "setup.py", "Poetry.lock", ".git"]
-language-server = { command = "pyright-langserver", args = ["--stdio"] }
+language-servers = [ "pyright"]
 auto-format = true
 formatter = {command = 'black', args = ["--quiet", "-"]}
-config = ""
 
 [[language]]
 name = "html"
@@ -45,7 +44,6 @@ auto-format = true
 
 [[language]]
 name = "ruby"
-config = { solargraph = { diagnostics = true, formatting = false } }
 formatter = { command = "bundle", args = ["exec", "rubocop", "--stdin", "foo.rb", "-a", "--stderr", "--fail-level", "fatal"] }
 auto-format = true
 
@@ -53,13 +51,4 @@ auto-format = true
 name = "lua"
 auto-format = true
 
-[[language]]
-name = "rust"
 
-[language.auto-pairs]
-'(' = ')'
-'{' = '}'
-'[' = ']'
-'"' = '"'
-'`' = '`'
-'<' = '>'
