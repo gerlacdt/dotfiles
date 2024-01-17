@@ -51,4 +51,13 @@ auto-format = true
 name = "lua"
 auto-format = true
 
+[[language]]
+name = "rust"
 
+[language.auto-pairs]
+'(' = ')'
+'{' = '}'
+'[' = ']'
+'"' = '"'
+'`' = '`'
+'<' = '>'
