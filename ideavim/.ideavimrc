@@ -24,12 +24,18 @@ Plug 'tpope/vim-surround'
 
 
 "" -- Map IDE actions to IdeaVim -- https://jb.gg/abva4t
-map <leader>a <Action>(GoToAction)
-map <leader>s <Action>(ReformatCode) \| <Action>(SaveAll)
-map <leader>f <Action>(GotoFile)
-map <leader>g <Action>(FindInPath)
-map <leader>b <Action>(Switcher)
-map gr <Action>(FindUsages)
+map <C-s> <Action>(ReformatCode) \| <Action>(SaveAll)
+
+map <leader>a <Action>(GotoAction)
+map <leader>ff <Action>(GotoFile)
+map <leader>fw <Action>(FindInPath)
+map <leader>fb <Action>(Switcher)
 map <leader>c <Action>(CloseContent)
-map ga <Action>(CloseAllEditorsButActive)
 map <leader>/ <Action>(CommentByLineComment)
+map <leader>bc <Action>(CloseAllEditorsButActive)
+map <leader>lr <Action>(RenameElement)
+
+map gr <Action>(FindUsages)
+map [f <Action>(MethodUp)
+map ]f <Action>(MethodDown)
+
