@@ -8,9 +8,10 @@ let mapleader=" "
 " Show a few lines of context around the cursor. Note that this makes the
 " text scroll if you mouse-click near the start or end of the window.
 set scrolloff=5
-
-" Do incremental searching.
 set incsearch
+set ignorecase
+set smartcase
+set hlsearch
 set nu
 set relativenumber
 
@@ -28,6 +29,7 @@ map <C-s> <Action>(ReformatCode) \| <Action>(SaveAll)
 
 map <leader>a <Action>(GotoAction)
 map <leader>ff <Action>(GotoFile)
+map <leader>fr <Action>(RecentFiles)
 map <leader>fw <Action>(FindInPath)
 map <leader>fb <Action>(Switcher)
 map <leader>c <Action>(CloseContent)
@@ -36,6 +38,8 @@ map <leader>bc <Action>(CloseAllEditorsButActive)
 map <leader>lr <Action>(RenameElement)
 
 map gr <Action>(FindUsages)
+map gt <Action>(RunClass)
 map [f <Action>(MethodUp)
 map ]f <Action>(MethodDown)
-
+map [b <Action>(PreviousTab)
+map ]b <Action>(NextTab)
