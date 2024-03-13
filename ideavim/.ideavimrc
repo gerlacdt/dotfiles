@@ -2,11 +2,9 @@
 "   the same commands as the original .vimrc configuration.
 " You can find a list of commands here: https://jb.gg/h38q75
 " Find more examples here: https://jb.gg/share-ideavimrc
+
 let mapleader=" "
 
-"" -- Suggested options --
-" Show a few lines of context around the cursor. Note that this makes the
-" text scroll if you mouse-click near the start or end of the window.
 set scrolloff=5
 set incsearch
 set ignorecase
@@ -23,21 +21,21 @@ Plug 'machakann/vim-highlightedyank'
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-surround'
 
-
 "" -- Map IDE actions to IdeaVim -- https://jb.gg/abva4t
 map <C-s> <Action>(ReformatCode) \| <Action>(SaveAll)
-
 map <leader>a <Action>(GotoAction)
+map <leader>c <Action>(CloseContent)
+map <leader>/ <Action>(CommentByLineComment)
+
 map <leader>ff <Action>(GotoFile)
 map <leader>fr <Action>(RecentFiles)
 map <leader>fw <Action>(FindInPath)
 map <leader>fb <Action>(Switcher)
-map <leader>c <Action>(CloseContent)
-map <leader>/ <Action>(CommentByLineComment)
 map <leader>bc <Action>(CloseAllEditorsButActive)
 map <leader>lr <Action>(RenameElement)
 
 map gr <Action>(FindUsages)
+map gi <Action>(GotoImplementation)
 map gt <Action>(RunClass)
 map [f <Action>(MethodUp)
 map ]f <Action>(MethodDown)
