@@ -17,7 +17,8 @@ return {
       null_ls.builtins.formatting.black,
       null_ls.builtins.formatting.terraform_fmt,
       -- null_ls.builtins.formatting.yamlfmt,
-      null_ls.builtins.diagnostics.staticcheck,
+      -- null_ls.builtins.diagnostics.staticcheck,
+      null_ls.builtins.diagnostics.golangci_lint,
     }
     return config -- return final config table
   end,
