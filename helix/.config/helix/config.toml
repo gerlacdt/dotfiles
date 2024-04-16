@@ -1,4 +1,4 @@
-theme = "onedark"
+theme = "catppuccin_mocha"
 
 [editor]
 line-number = "relative"
@@ -11,9 +11,6 @@ select = "underline"
 
 [editor.file-picker]
 hidden = false
-
-[editor.statusline]
-right = ["diagnostics", "selections", "position", "file-encoding", "version-control"]
 
 [keys.normal]
 "D" = ["ensure_selections_forward", "extend_to_line_end", "delete_selection"]
