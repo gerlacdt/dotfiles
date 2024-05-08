@@ -1,2 +1,3 @@
 alacritty/.config/alacritty/themes/
 helix/.config/helix/runtime
+nvim/.config/nvim/lazy-lock.json
