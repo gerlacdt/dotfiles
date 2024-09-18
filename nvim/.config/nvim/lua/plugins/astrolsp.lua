@@ -41,7 +41,7 @@ return {
       "pyright",
       "rust_analyzer",
       "gopls",
-      "tsserver",
+      "ts_ls",
       "lua_ls",
       "solargraph",
       "terraformls",
