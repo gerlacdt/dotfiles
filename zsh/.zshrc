@@ -132,6 +132,9 @@ PATH=/usr/local/go/bin:$GOBIN:$MVN_HOME/bin:$GRADLE_HOME/bin:$HOME/.local/bin:$H
 
 # auto-completions
 source <(kubectl completion zsh)
+
+# required for terraform completions
+# see https://developer.hashicorp.com/terraform/cli/commands#shell-tab-completion
 autoload -U +X bashcompinit && bashcompinit
 complete -o nospace -C $HOME/.local/bin/terraform terraform
 
