@@ -1,4 +1,4 @@
-import = ["~/.config/alacritty/themes/themes/iterm.toml"]
+general.import = ["~/.config/alacritty/themes/themes/iterm.toml"]
 
 [font]
 size = 12.0
