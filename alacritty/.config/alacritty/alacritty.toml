@@ -1,4 +1,4 @@
-general.import = ["~/.config/alacritty/themes/themes/iterm.toml"]
+general.import = ["~/.config/alacritty/themes/themes/catppuccin_macchiato.toml"]
 
 [font]
 size = 12.0
