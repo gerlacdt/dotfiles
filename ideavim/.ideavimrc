@@ -5,6 +5,7 @@
 
 let mapleader=" "
 
+set clipboard+=unnamed
 set scrolloff=5
 set incsearch
 set ignorecase
