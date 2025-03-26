@@ -38,7 +38,7 @@ return {
     },
     -- enable servers that you already have installed without mason
     servers = {
-      "pyright",
+      "ruff",
       "rust_analyzer",
       "gopls",
       "ts_ls",
