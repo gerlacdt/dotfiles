@@ -14,7 +14,6 @@ return {
       -- Set a formatter
       -- null_ls.builtins.formatting.stylua,
       null_ls.builtins.formatting.prettier,
-      null_ls.builtins.formatting.black,
       null_ls.builtins.formatting.terraform_fmt,
       -- null_ls.builtins.formatting.yamlfmt,
       -- null_ls.builtins.diagnostics.staticcheck,
