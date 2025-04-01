@@ -114,6 +114,7 @@ alias k='kubectl'
 alias kd='kubectl describe'
 alias t='terraform'
 alias gdl='git diff --no-index'
+alias mux='tmuxinator'
 
 # nice looking shell, e.g. enable true color terminal support, set default language
 export LC_ALL=en_US.UTF-8
