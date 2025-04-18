@@ -46,12 +46,14 @@ return {
        "lua_ls",
        "solargraph",
        "terraformls",
-       "yamlls"
+       "yamlls",
+       "typos_lsp"
     },
     -- customize language server configuration options passed to `lspconfig`
     ---@diagnostic disable: missing-fields
     config = {
       -- clangd = { capabilities = { offsetEncoding = "utf-8" } },
+      typos_lsp = { filetypes = { "md", "markdown"} }
     },
     -- customize how language servers are attached
     handlers = {
