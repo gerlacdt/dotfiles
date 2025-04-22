@@ -15,6 +15,11 @@ return {
     event = "BufRead",
     config = function() require("lsp_signature").setup() end,
   },
+  {
+    "ggandor/leap.nvim",
+    event = "BufRead",
+    config = function() require('leap').set_default_mappings() end,
+  },
 
   -- == Examples of Overriding Plugins ==
 
