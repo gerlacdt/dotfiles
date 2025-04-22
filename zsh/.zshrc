@@ -129,7 +129,7 @@ export JAVA_HOME=/usr/lib/jvm/java-17-openjdk-amd64
 export MVN_HOME=$HOME/.local/bin/maven
 export GRADLE_HOME=$HOME/.local/bin/gradle
 
-PATH=/usr/local/go/bin:$GOBIN:$MVN_HOME/bin:$GRADLE_HOME/bin:$HOME/.local/bin:$HOME/.arkade/bin:$PATH
+PATH=/usr/local/go/bin:$GOBIN:$MVN_HOME/bin:$GRADLE_HOME/bin:$HOME/.local/bin:$HOME/.config/emacs/bin:$HOME/.arkade/bin:$PATH
 
 # auto-completions
 source <(kubectl completion zsh)
