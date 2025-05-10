@@ -79,7 +79,7 @@
       "commands": ["workbench.view.search"]
     },
     {
-      "before": ["<leader>", "w", "s"],
+      "before": ["<leader>", "w", "v"],
       "commands": ["workbench.action.splitEditor"]
     },
     {
@@ -87,16 +87,28 @@
       "commands": ["editor.action.rename"]
     },
     {
-      "before": ["<leader>", "a", "a"],
+      "before": ["<leader>", "a", "f"],
+      "commands": ["editor.action.formatDocument"]
+    },
+    {
+      "before": ["<leader>", "a", "."],
       "commands": ["editor.action.quickFix"]
+    },
+    {
+      "before": ["<leader>", "a", ";"],
+      "commands": ["editor.action.commentLine"]
     },
     {
       "before": ["<leader>", "e"],
       "commands": ["workbench.view.explorer"]
     },
     {
-      "before": ["<leader>", "c"],
+      "before": ["<leader>", "w", "d"],
       "commands": ["workbench.action.closeActiveEditor"]
+    },
+    {
+      "before": ["<leader>", "w", "o"],
+      "commands": ["workbench.action.closeOtherEditors"]
     }
   ],
   "vim.visualModeKeyBindingsNonRecursive": [
@@ -119,5 +131,9 @@
   ],
   "vim.commandLineModeKeyBindingsNonRecursive": [
 
+  ],
+  "python.defaultInterpreterPath": "/home/gerlacdt/.virtualenv/data",
+  "vim.visualModeKeyBindings": [
+    
   ]
 }
