@@ -1,13 +1,2 @@
 // Place your key bindings in this file to override the defaults
-[
-    {
-        "key": "ctrl+q",
-        "command": "cloudcode.duetAI.showinEditor",
-        "when": "authLoggedIn && config.geminicodeassist.enable && editorTextFocus && shouldRegisterInEditorCommand && !inGeminiDiffView && !isInDiffEditor"
-    },
-    {
-        "key": "ctrl+i",
-        "command": "-cloudcode.duetAI.showinEditor",
-        "when": "authLoggedIn && config.geminicodeassist.enable && editorTextFocus && shouldRegisterInEditorCommand && !inGeminiDiffView && !isInDiffEditor"
-    }
-]
+[]
