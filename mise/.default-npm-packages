@@ -1,0 +1,9 @@
+eslint
+fastify-cli
+prettier
+tiddlywiki
+typescript
+typescript-language-server
+yaml-language-server
+pino-pretty
+@google/gemini-cli
