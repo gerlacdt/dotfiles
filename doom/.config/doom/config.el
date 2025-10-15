@@ -70,6 +70,9 @@
 (map! :map evil-window-map
       "o" #'delete-other-windows)
 
+(map! :leader
+      "b h" #'mark-whole-buffer)
+
 (after! apheleia
   (setf (alist-get 'markdown-mode apheleia-mode-alist)
         '(prettier-markdown)))
