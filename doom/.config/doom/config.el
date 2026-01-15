@@ -76,6 +76,11 @@
 (after! apheleia
   (setf (alist-get 'markdown-mode apheleia-mode-alist)
         '(prettier-markdown)))
+(after! org-roam
+  (setq org-roam-directory (file-truename "~/src/org-roam"))
+  (org-roam-db-autosync-mode)
+  (setq org-roam-completion-everywhere t))
+
 ;; To get information about any of these functions/macros, move the cursor over
 ;; the highlighted symbol at press 'K' (non-evil users must press 'C-c c k').
 ;; This will open documentation for it, including demos of how they are used.
