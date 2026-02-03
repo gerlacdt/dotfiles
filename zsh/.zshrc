@@ -118,7 +118,7 @@ alias mux='tmuxinator'
 alias npmlg='npm list -g --depth 0'
 
 # nice looking shell, e.g. enable true color terminal support, set default language
-export LC_ALL=en_US.UTF-8
+# export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
 # export TERM=xterm-256color
 export COLORTERM=truecolor
