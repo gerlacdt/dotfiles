@@ -76,6 +76,10 @@
 (after! apheleia
   (setf (alist-get 'markdown-mode apheleia-mode-alist)
         '(prettier-markdown)))
+
+(add-hook! 'yaml-mode-hook
+  (setq apheleia-mode nil))
+
 (after! org-roam
   (setq org-roam-directory (file-truename "~/src/org-roam"))
   (org-roam-db-autosync-mode)
