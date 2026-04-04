@@ -50,5 +50,7 @@
     "GitHub.vscode-pull-request-github"
   ],
   "diffEditor.codeLens": true,
-  "python.defaultInterpreterPath": "/home/gerlacdt/.virtualenv/data"
+  "python.defaultInterpreterPath": "/home/gerlacdt/.virtualenv/data",
+  "workbench.colorTheme": "Visual Studio Dark",
+  "makefile.configureOnOpen": false
 }
