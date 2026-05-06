@@ -1,2 +1,4 @@
 [tools]
+maven = "latest"
 node = "lts"
+terraform = "latest"

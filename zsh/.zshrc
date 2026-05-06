@@ -126,11 +126,10 @@ export COLORTERM=truecolor
 # configure $PATH for all kind of tools
 export GOPATH=$HOME/src/golang
 export GOBIN=$GOPATH/bin
-export JAVA_HOME=/usr/lib/jvm/java-17-openjdk-amd64
-export MVN_HOME=$HOME/.local/bin/maven
+export JAVA_HOME=/usr/lib/jvm/java-25-openjdk-amd64
 export GRADLE_HOME=$HOME/.local/bin/gradle
 
-PATH=/usr/local/go/bin:$GOBIN:$MVN_HOME/bin:$GRADLE_HOME/bin:$HOME/.local/bin:$HOME/.config/emacs/bin:$HOME/.arkade/bin:$PATH
+PATH=/usr/local/go/bin:$GOBIN:$GRADLE_HOME/bin:$HOME/.local/bin:$HOME/.config/emacs/bin:$HOME/.arkade/bin:$PATH
 
 # auto-completions
 source <(kubectl completion zsh)
