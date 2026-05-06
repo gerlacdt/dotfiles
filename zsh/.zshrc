@@ -140,8 +140,7 @@ autoload -U +X bashcompinit && bashcompinit
 complete -o nospace -C $HOME/.local/bin/terraform terraform
 
 # set default python environment
-source $HOME/.virtualenv/data/bin/activate
-
+source $HOME/.venv/bin/activate
 
 # shows memory usage of a process
 # USAGE: mem emacs # shows emacs memory consumption
