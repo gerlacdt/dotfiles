@@ -45,19 +45,21 @@ root: ~/
 # attach: false
 
 windows:
-  - source:
-      root: ~/src
+  - ai:
+      root: ~/src/golang/chisample
+  - editor:
+      root: ~/src/golang/chisample
+      panes:
+        - ls
+  - chisample:
+      root: ~/src/golang/chisample/
       panes:
         - ls
   - downloads:
       root: ~/Downloads
       panes:
         - ls -ht | head -n 10 # Shows 10 most recent downloads
-  - scratch:
+  - tmp:
       root: ~/tmp
       panes:
         - clear
-  - golang:
-      root: ~/src/golang
-      panes:
-        - go version
