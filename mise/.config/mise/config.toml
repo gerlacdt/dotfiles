@@ -1,4 +1,5 @@
 [tools]
+gomigrate = "latest"
 maven = "latest"
 node = "lts"
 terraform = "latest"
