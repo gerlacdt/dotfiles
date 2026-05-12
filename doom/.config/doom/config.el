@@ -73,6 +73,11 @@
 (map! :leader
       "b h" #'mark-whole-buffer)
 
+(defun gerlacdt/yank-buffer-file-name() "Copy current buffer file name into clipboard"
+       (interactive)
+       (kill-new (buffer-file-name)))
+
+
 (after! apheleia
   (setf (alist-get 'markdown-mode apheleia-mode-alist)
         '(prettier-markdown))
