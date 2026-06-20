@@ -162,3 +162,7 @@ eval "$(zoxide init zsh)"
 # [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 eval "$(~/.local/bin/mise activate zsh)"
+
+
+# Added by Antigravity CLI installer
+export PATH="/home/gerlacdt/.local/bin:$PATH"

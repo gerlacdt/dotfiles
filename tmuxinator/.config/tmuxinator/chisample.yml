@@ -1,6 +1,6 @@
 # /home/gerlacdt/.config/tmuxinator/emacs.yml
 
-name: work
+name: chi
 root: ~/
 
 # Optional tmux socket
