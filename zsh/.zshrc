@@ -128,8 +128,9 @@ export GOPATH=$HOME/src/golang
 export GOBIN=$GOPATH/bin
 export JAVA_HOME=/usr/lib/jvm/java-25-openjdk-amd64
 export GRADLE_HOME=$HOME/.local/bin/gradle
+export CHROME_EXECUTABLE=/usr/bin/google-chrome-stable
 
-PATH=/usr/local/go/bin:$GOBIN:$GRADLE_HOME/bin:$HOME/.local/bin:$HOME/.config/emacs/bin:$HOME/.arkade/bin:$PATH
+PATH=/usr/local/go/bin:$GOBIN:$GRADLE_HOME/bin:$HOME/.local/bin:$HOME/.config/emacs/bin:$HOME/.arkade/bin:$HOME/lib/flutter:$PATH
 
 # auto-completions
 source <(kubectl completion zsh)

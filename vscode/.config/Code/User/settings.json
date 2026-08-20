@@ -3,6 +3,9 @@
   "[rust]": {
     "editor.formatOnSave": true
   },
+  "dart.env": {
+    "QT_QPA_PLATFORM": "xcb"
+  },
   "rust-analyzer.completion.snippets.custom": {
     "Arc::new": {
       "postfix": "arc",
@@ -52,5 +55,13 @@
   "diffEditor.codeLens": true,
   "python.defaultInterpreterPath": "/home/gerlacdt/.virtualenv/data",
   "workbench.colorTheme": "Visual Studio Dark",
-  "makefile.configureOnOpen": false
+  "makefile.configureOnOpen": false,
+  "dart.flutterSdkPath": "/home/gerlacdt/lib/flutter",
+  "dart.flutterCreatePlatforms": [
+    "android",
+    "ios",
+    "web"
+  ],
+  "dart.debugExternalPackageLibraries": true,
+  "dart.debugSdkLibraries": true
 }
