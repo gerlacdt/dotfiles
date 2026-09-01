@@ -57,11 +57,7 @@
   "workbench.colorTheme": "Visual Studio Dark",
   "makefile.configureOnOpen": false,
   "dart.flutterSdkPath": "/home/gerlacdt/lib/flutter",
-  "dart.flutterCreatePlatforms": [
-    "android",
-    "ios",
-    "web"
-  ],
+  "dart.flutterCreatePlatforms": ["android", "ios", "web"],
   "dart.debugExternalPackageLibraries": true,
   "dart.debugSdkLibraries": true,
   "dart.openDevTools": "flutter",
@@ -79,6 +75,10 @@
   ],
   "vim.normalModeKeyBindingsNonRecursive": [
     {
+      "before": ["<C-n>"],
+      "commands": [":nohl"]
+    },
+    {
       "before": ["<leader>", "b", "S"],
       "commands": ["workbench.action.files.saveAll"]
     },
@@ -93,6 +93,30 @@
     {
       "before": ["g", "d"],
       "commands": ["editor.action.goToTypeDefinition"]
+    },
+    {
+      "before": ["g", "d"],
+      "commands": ["editor.action.goToImplementation"]
+    }
+    {
+      "before": ["<leader>", "b", "b"],
+      "commands": ["workbench.action.quickOpen"]
+    },
+    {
+      "before": ["<leader>", "p"],
+      "commands": ["workbench.action.quickOpen"]
+    },
+    {
+      "before": ["<leader>", ":"],
+      "commands": ["workbench.action.showCommands"]
+    },
+    {
+      "before": ["<leader>", "w", "v"],
+      "commands": ["workbench.action.splitEditor"]
+    },
+    {
+      "before": ["<leader>", "w", "d"],
+      "commands": ["workbench.action.closeEditorsInGroup"]
     }
   ],
   "vim.leader": "<space>",
@@ -105,21 +129,13 @@
     "vscodevim.vim": 1
   },
   "vim.visualModeKeyBindings": [
-      {
-          "before": [
-              ">"
-          ],
-          "commands": [
-              "editor.action.indentLines"
-          ]
-      },
-      {
-          "before": [
-              "<"
-          ],
-          "commands": [
-              "editor.action.outdentLines"
-          ]
-      },
+    {
+      "before": [">"],
+      "commands": ["editor.action.indentLines"]
+    },
+    {
+      "before": ["<"],
+      "commands": ["editor.action.outdentLines"]
+    }
   ]
 }
